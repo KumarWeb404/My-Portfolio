@@ -169,9 +169,7 @@ h2 {
   align-items: center;
   flex-direction: column;
 }
-.contact-container h1 {
-  margin-top: -2em;
-}
+
 .icons {
   margin-top: 7em;
   display: flex;
@@ -180,7 +178,7 @@ h2 {
   text-align: center;
   width: 50%;
 }
-.icons i{
+.icons i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,9 +186,10 @@ h2 {
   height: 1.5em;
   border-radius: 50%;
   color: var(--biege);
- cursor: pointer;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
-#icons:link{
+#icons:link {
   text-decoration: none;
 }
 
@@ -198,10 +197,10 @@ h2 {
   background-color: var(--biege);
   color: var(--black);
 }
-.languages-container{
+.languages-container {
   display: flex;
   justify-content: center;
 }
-.languages-container h1{
+.languages-container h1 {
   margin-top: 2em;
 }
