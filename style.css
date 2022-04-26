@@ -56,11 +56,11 @@ nav {
   position: relative;
   color: var(--biege);
   text-decoration: none;
-  opacity: 0.75;
+  opacity: 0.65;
   padding-bottom: 0.5em;
 }
 
-.nav-link-ltr a:hover {
+#nav-links:hover {
   color: var(--biege);
   opacity: 1;
 }
